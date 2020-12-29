@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { fromEventPattern } from 'rxjs';
+import { ActivatedRoute } from '@angular/router'
 
 @Component({
   selector: 'app-details',
